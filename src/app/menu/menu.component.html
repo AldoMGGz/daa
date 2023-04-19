@@ -1,0 +1,10 @@
+<mat-card class="card" *ngFor="let dish of menuList">
+    <mat-card-header>
+      <mat-card-subtitle>{{dish.title}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{dish.imaage}}">
+    <mat-card-content>
+      <p>{{dish.desription}}</p>
+    </mat-card-content>
+  </mat-card>
+  
